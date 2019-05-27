@@ -1,0 +1,24 @@
+{
+  "name": "koa-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "eslint . && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hankychung/koa-mvc.git"
+  },
+  "author": "Han",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hankychung/koa-mvc/issues"
+  },
+  "homepage": "https://github.com/hankychung/koa-mvc#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0"
+  }
+}
