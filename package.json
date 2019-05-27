@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/hankychung/koa-mvc#readme",
   "dependencies": {
+    "chalk": "^2.4.2",
     "koa": "^2.7.0",
     "koa-router": "^7.4.0"
   }
