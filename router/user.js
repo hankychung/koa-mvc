@@ -1,8 +1,7 @@
-module.exports = {
+module.exports = ins => ({
 	'get /': async ctx => {
 		ctx.body = 'user'
 	},
-	'get /info': async ctx => {
-		ctx.body = 'user info'
-	},
-}
+	'get /info': ins.$ctrl.user.info,
+	'get /list': ins.$ctrl.user.list
+})
