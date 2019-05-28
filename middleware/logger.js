@@ -5,5 +5,5 @@ module.exports = async (ctx, next) => {
 	console.log(chalk.yellow(`> ${ctx.method}: ${ctx.path}`))
 	await next()
 	const duration = new Date() - start
-	console.log(chalk[ctx.status == 200 ? 'green' : 'red'](`< status: ${ctx.status}  use: ${duration}s`))
+	console.log(chalk[ctx.status == 200 ? 'green' : 'red'](`< status: ${ctx.status}  use: ${duration}ms`))
 }
