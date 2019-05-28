@@ -1,4 +1,4 @@
-const Hoa = require('./lib')
-const app = new Hoa()
+const MyKoa = require('./lib')
+const app = new MyKoa()
 
 app.start('1111')
